@@ -1,0 +1,7 @@
+<div style="text-align:center">
+  <p *ngIf="log.isLoggedIn">Welcome Mr. {{ log.username }}</p>
+  <p *ngIf="log.isLoggedIn && log.username === 'admin'">
+    You can View and Modify data.
+  </p>
+  <p *ngIf="!log.isLoggedIn">Welcome to Home Page.</p>
+</div>

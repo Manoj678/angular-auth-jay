@@ -1,0 +1,15 @@
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li a {
+  cursor: pointer;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: rgb(97, 55, 14);
+}
+
+nav ul li a.active {
+  color: blue;
+}

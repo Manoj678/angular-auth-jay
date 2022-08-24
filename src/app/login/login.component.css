@@ -1,0 +1,9 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+}
+form {
+  width: 50vw;
+  margin: 0 auto;
+}
